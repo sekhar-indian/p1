@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project 1</title>
+</head>
+<body id="i">
+    <form>
+        <label for="i1">Choose expense amount:</label>
+        <input type="text" id="i1" name="expense_amount">
+        
+        <label for="i2">Choose description:</label>
+        <input type="text" id="i2" name="expense_description">
+        
+        <label for="dropdown">Choose category:</label>
+        <select id="dropdown" name="expense_category">
+            <option value="move" id="i3">Move</option>
+            <option value="food" id="i4">Food</option>
+        </select>
+        
+        <button type="submit">Add expenses</button>
+    </form>
+
+    <div id="expenseList"></div>
+
+    <script src="p1.js"></script>
+</body>
+</html>
